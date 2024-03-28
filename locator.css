@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f00; /* McDonald's red */
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+#map {
+    height: 400px; /* Adjust the height as needed */
+}
+
+#search {
+    text-align: center;
+}
+
+#search form {
+    display: inline-block;
+}
+
+#search input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#search button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f00; /* McDonald's red */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#search button:hover {
+    background-color: #c00; /* Darker shade of red */
+}
+
+footer {
+    background-color: #f00; /* McDonald's red */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
